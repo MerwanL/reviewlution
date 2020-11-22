@@ -6,3 +6,17 @@ $fa-font-path: "~node_modules/@fortawesome/fontawesome-free/webfonts";
 @import "~node_modules/@fortawesome/fontawesome-free/scss/brands";
 @import "~node_modules/@fortawesome/fontawesome-free/scss/regular";
 @import "~node_modules/@fortawesome/fontawesome-free/scss/solid";
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url('../style/fonts/Pacifico-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+//   @font-face {
+//     font-family: 'Lato';
+//     src: url('../style/fonts/Lato-Regular.ttf') format('truetype');
+//     font-weight: normal;
+//     font-style: normal;
+//   }
