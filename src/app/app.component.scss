@@ -1,0 +1,20 @@
+@import '../style/variables';
+
+.has-text-secondary{
+    color: $secondary;
+}
+.is-secondary{
+    background-color: $secondary;
+    color: $white;
+}
+.has-text-tertiary{
+    color: $tertiary;
+}
+
+.hero{
+    background-color: $black;
+
+    &:hover{
+        background-color: $secondary;
+    }
+}
