@@ -1,60 +1,7 @@
-
-<span class="icon has-text-primary is-large ">
-<i class="fas fa-home"></i>
-</span>
-<h1 class="title is-size-1-desktop has-text-centered has-text-primary">Les palettes Joli minois & Biche
-</h1>
-<h2 class="subtitle is-size-3-desktop has-text-centered has-text-primary">L'essentiel pour un maquillage léger et frais. </h2>
-
-  <div class="columns is-gap">
-    <div class="column has-text-centered has-text-primary">
-      <img src="../assets/images/visuel1.png" alt="Visuel des palettes Jolis Minois et Biche."/> 
-      <p class="has-text-secondary">
-        Une palette complète adaptée à 100%.
-      </p>
-      <p> Cette palette se divise en 2 parties : la palette Joli Minois pour le visage et la palette Biche pour les yeux. Ces deux palettes s'achète séparement.
-    </p>
-    </div>
-    <div class="column has-text-centered has-text-primary">
-     <div class="is-secondary"><strong>Une palette modulaire.</strong></div> 
-     <p class="has-text-tertiary">
-      La palette Jolis Minois
-    </p>
-      <p>La palette Jolis Minois se concentre sur le maquillage du visage avec une partie : poudre, blush, poudre bronzante et un rouge à lèvres.
-      <p class="has-text-tertiary">
-          La palette Biche.
-        </p>
-      <p>Cette petite palette se compose de 4 fards à paupières : un marron foncé comme le tronc d'un arbre, un beige clair comme la couleur de la peau, un rose clair telle la couleur de la fleur et un fard pailleté doré comme les étoiles.
-    </p>
-    <img src="../assets/images/visuel2.png" alt="Visuel des palettes Jolis Minois et Biche ouvertes."/> 
-    </div>
-  </div>
-  <section class="hero">
-    <div class="hero-body">
-      <div class="container">
-        <h1 class="title has-text-centered has-text-primary is-fifth">
-          Nos valeurs
-        </h1>
-      </div>
-    </div>
-  </section>
-<div class="conteneur"> 
-  <div class="sousconteneur">
-    <img class="image" src="../assets/images/adaptation.png" alt="Logo représentant l'adaptation avec un cycle de modifcations passant d'un rond à un carré selon les retours."/> 
-    <p class="is-secondary has-text-primary has-text-centered"><strong>L'adaptation</strong></p>
-    <p class="has-text-centered has-text-primary">L'adaptation est la raison de vivre de Reviewlution. Il s'agit de répondre aux besoins et envies des utilisateurs. Pour cela, Reviewlution se doit d'être toujours en mesure de s'adapter et de toujours apprendre de ses utilisateurs.
-    </p>
-  </div> 
-  <div class="sousconteneur">
-    <img class="image" src="../assets/images/inclusion.png" alt="Logo représentant l'inclusion avec une foule dans une forme de coeur."/> 
-    <p class="is-tertiary has-text-centered has-text-primary"><strong>L'inclusion</strong>
-    <p class="has-text-centered has-text-primary">L'inclusion est à l'origine du projet. Elle définit la raison d'être de Reviewltuion. Il est question de donner l'accebilité à tous ceux qui veulent à la marque.
-    </p>
-  </div> 
-  <div class="sousconteneur">
-    <img class="image" src="../assets/images/share.png" alt="Logo représentant le partage avce deux mains qui se passent un message."/> 
-    <p class="is-secondary has-text-centered has-text-primary"><strong>Le partage</strong>
-    <p class="has-text-centered has-text-primary">Enfin le partage est ce pourquoi Reviewlution continuera de s'améliorer. Grâce aux retours de la famille Reviewlution, la marque sait se ré-interpreter en permanence afin de toujours offrir un service adpaté et inclusif.
-    </p>
-  </div> 
-</div>
+<section class="section">
+  <a [routerLink]="['/']"
+    ><span class="icon has-text-primary is-large">
+      <i class="fas fa-home"></i> </span
+  ></a>
+  <router-outlet></router-outlet>
+</section>
